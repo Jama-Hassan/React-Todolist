@@ -1,6 +1,8 @@
 {
   "name": "todolist",
   "version": "0.1.0",
+  "author": "Jama Hassan",
+  "soosaare": "prince Jama",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -8,6 +10,7 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-flip-move": "^3.0.4",
     "react-scripts": "3.3.0"
   },
   "scripts": {
@@ -30,5 +33,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "file-loader": "^4.2.0",
+    "url-loader": "^2.2.0"
   }
 }
